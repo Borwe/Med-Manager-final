@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Med-Manager</string>
+
+    <string name="user_prefs">med.borwe.com.med_manager.UserPrefs</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Hold data for addMedicationFragment -->
+    <string name="add_med_name">Medication Name</string>
+    <string name="add_med_description">Description</string>
+    <string name="add_med_frequency">Frequency</string>
+    <string name="add_med_start">Start</string>
+    <string name="add_med_end">End</string>
+
+    <!-- For DescriptionDialogActivity -->
+    <string name="description_edit_text">Enter Description Here</string>
+    <string name="description_add_button">Add Description</string>
+
+    <!-- For FrequencyDialogActivity -->
+    <string name="frequency_times">Enter No. of pills to take</string>
+    <string name="frequency_option_morning">Morning</string>
+    <string name="frequency_option_lunch">Lunch Time</string>
+    <string name="frequency_option_evening">Evening</string>
+    <string name="frequency_set_button">Set Frequency</string>
+
+    <!-- For notifyPreference -->
+    <string name="notify_shared_preference">med.borwe.com.med_manager.NOTIFYPREFERENCE</string>
+    <string name="title_activity_month_view">MonthView</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dialog_activities.FrequencyDialogActivity">
+
+    <EditText
+        android:id="@+id/frequency_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/frequency_times"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/frequency_morning_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frequency_option_morning" />
+
+    <CheckBox
+        android:id="@+id/frquency_lunch_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frequency_option_lunch" />
+
+    <CheckBox
+        android:id="@+id/frequency_evening_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frequency_option_evening" />
+
+    <Button
+        android:id="@+id/frequency_add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frequency_set_button" />
+</LinearLayout>
